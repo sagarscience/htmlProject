@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Welcome to My Webpage</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header, section, footer {
+      padding: 20px;
+    }
+    header {
+      background-color: #f2f2f2;
+      text-align: center;
+    }
+    nav, aside {
+      display: none;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    th, td {
+      border: 1px solid #444;
+      padding: 10px;
+      text-align: left;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      max-width: 400px;
+    }
+    input {
+      margin-bottom: 10px;
+      padding: 8px;
+    }
+    button {
+      padding: 10px;
+      background-color: #008cba;
+      color: white;
+      border: none;
+    }
+    footer {
+      background-color: #f2f2f2;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <h1>Welcome to My Webpage</h1>
+  </header>
+
+  <!-- About Section -->
+  <section>
+    <h2>About This Website</h2>
+    <p>
+      This is a simple webpage built using basic HTML elements. It is designed to demonstrate my understanding of web structure, formatting, and media embedding. You'll find different sections such as services, media content, pricing, and a contact form. I hope you enjoy browsing this demo site!
+    </p>
+  </section>
+
+  <!-- Image Section -->
+  <section>
+    <h2>Featured Image</h2>
+    <img src="https://via.placeholder.com/800x400" alt="Placeholder Image">
+  </section>
+
+  <!-- Services Section -->
+  <section>
+    <h2>Our Services</h2>
+    <ul>
+      <li>Web Design</li>
+      <li>Responsive Layout</li>
+      <li>SEO Optimization</li>
+      <li>Performance Tuning</li>
+    </ul>
+  </section>
+
+  <!-- Video Section -->
+  <section>
+    <h2>Introduction Video</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY" 
+      title="YouTube video" frameborder="0" allowfullscreen>
+    </iframe>
+  </section>
+
+  <!-- Price List Section -->
+  <section>
+    <h2>Price List</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Service</th>
+          <th>Price (INR)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Web Design</td>
+          <td>₹5,000</td>
+        </tr>
+        <tr>
+          <td>Responsive Layout</td>
+          <td>₹3,500</td>
+        </tr>
+        <tr>
+          <td>SEO Optimization</td>
+          <td>₹2,000</td>
+        </tr>
+        <tr>
+          <td>Performance Tuning</td>
+          <td>₹1,500</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Form Section -->
+  <section>
+    <h2>Contact Us</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone" required>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>Contact us at: info@example.com | Phone: +91-1234567890</p>
+  </footer>
+
+</body>
+</html>
